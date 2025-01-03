@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <script>
+        // Rafraîchit la page toutes les 5 secondes (5000 millisecondes)
+        setInterval(() => {
+            window.location.reload();
+        }, 900000);
+    </script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            height: 100vh;
+            width: 99vw;
+            margin: 0;
+            align-content: flex-start;
+            padding-left: 1vw;
+            background-color: #000000;
+            flex-wrap: wrap;
+        }
+        .container {
+            margin-right: 1vw;
+            margin-left: 0vw;
+            margin-top: 1vh;
+            margin-bottom: 0vh;
+
+            padding-top:1vh;
+            padding-bottom: 1vh;
+            padding-left: 2vw;
+            padding-right: 2vw;
+            
+            height: min-content;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            text-align: center;
+            border-radius: 10px;
+            background-color: #05050552;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .time {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #00FFFF;
+            width: 100%;
+        }
+        h1{
+            font-size: 3rem;
+            padding: 0;
+            margin: 0;
+            font-weight: bold;
+            color: #00FFFF;
+        }
+    </style>
+</head>
+<body>
+
+    <!--LIGNE 1-->
+    <div class="container" style="width: 72vw; height: 8vh;">
+        <h1 >Tableau de bord 2025</h1>
+    </div>
+    <div class="container" style="width: 17vw; height: 8vh;">
+        <div id="date" class="time">Chargement...</div>
+        <div id="time" class="time">Chargement...</div>
+    </div>
+
+    <!--LIGNE 2-->
+    <div class="container" style="width: 20vw; height: 31vh;">
+        <iframe style="width: 100%; height: auto;" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTxghSqDP6M2RaRbu5A8zXh-AIIRMXKXKi40pIpn7i6c8DDmQpZRKOUZxNYJLA109YRDcYUR7lzIoIw/pubchart?oid=351501005&amp;format=interactive"></iframe>
+    </div>
+    <div class="container" style="width: 35vw; height: 31vh;">
+        <iframe style="width: 100%; height: auto;" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTxghSqDP6M2RaRbu5A8zXh-AIIRMXKXKi40pIpn7i6c8DDmQpZRKOUZxNYJLA109YRDcYUR7lzIoIw/pubchart?oid=717217111&amp;format=interactive"></iframe>
+    </div>
+    <div class="container" style="width: 12vw; height: 31vh;">
+        <iframe style="width: 100%; height: auto;" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTxghSqDP6M2RaRbu5A8zXh-AIIRMXKXKi40pIpn7i6c8DDmQpZRKOUZxNYJLA109YRDcYUR7lzIoIw/pubchart?oid=1316607532&amp;format=interactive"></iframe>
+    </div>
+    <div class="container" style="width: 12vw; height: 31vh;">
+        <iframe style="width: 100%; height: auto;" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTxghSqDP6M2RaRbu5A8zXh-AIIRMXKXKi40pIpn7i6c8DDmQpZRKOUZxNYJLA109YRDcYUR7lzIoIw/pubchart?oid=1901626&amp;format=interactive"></iframe>
+    </div>
+
+    <!--LIGNE 3-->
+    <div class="container" style="width: 44.5vw; height: 24vh;">
+        <iframe style="width: 100%; height: auto;" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTxghSqDP6M2RaRbu5A8zXh-AIIRMXKXKi40pIpn7i6c8DDmQpZRKOUZxNYJLA109YRDcYUR7lzIoIw/pubchart?oid=2121888202&amp;format=interactive"></iframe>
+    </div>
+    <div class="container" style="width: 44.5vw; height: 24vh;">
+        <iframe style="width: 100%; height: auto;" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTxghSqDP6M2RaRbu5A8zXh-AIIRMXKXKi40pIpn7i6c8DDmQpZRKOUZxNYJLA109YRDcYUR7lzIoIw/pubchart?oid=341956300&amp;format=interactive"></iframe>
+    </div>
+
+    <!--LIGNE 4-->
+    <div class="container" style="width: 44.5vw; height: 24vh;">
+        <iframe style="width: 100%; height: auto;" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTxghSqDP6M2RaRbu5A8zXh-AIIRMXKXKi40pIpn7i6c8DDmQpZRKOUZxNYJLA109YRDcYUR7lzIoIw/pubchart?oid=2068817639&amp;format=interactive"></iframe>
+    </div>
+    <div class="container" style="width: 44.5vw; height: 24vh;">
+        <iframe style="width: 100%; height: auto;" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTxghSqDP6M2RaRbu5A8zXh-AIIRMXKXKi40pIpn7i6c8DDmQpZRKOUZxNYJLA109YRDcYUR7lzIoIw/pubchart?oid=402054377&amp;format=interactive"></iframe>
+    </div>
+
+    <script>
+        function updateDateTime() {
+            const dateElement = document.getElementById('date');
+            const timeElement = document.getElementById('time');
+            const now = new Date();
+
+            // Formater la date
+            const formattedDate = now.toLocaleDateString('fr-FR', {
+                year: 'numeric',
+                month: 'long',
+                day: 'numeric'
+            });
+
+            // Formater l'heure
+            const formattedTime = now.toLocaleTimeString('fr-FR', {
+                hour: '2-digit',
+                minute: '2-digit',
+                second: '2-digit'
+            });
+
+            // Mettre à jour les éléments
+            dateElement.textContent = formattedDate;
+            timeElement.textContent = formattedTime;
+        }
+
+        // Mise à jour initiale
+        updateDateTime();
+
+        // Mise à jour chaque seconde
+        setInterval(updateDateTime, 1000);
+    </script>
+</body>
+</html>
